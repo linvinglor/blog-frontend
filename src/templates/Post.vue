@@ -3,9 +3,7 @@
     <!-- Page Header -->
     <header 
     class="masthead" 
-    :style="{
-      backgroundImage: `url(${GRIDSOME_API_URL+$page.post.cover.url})`}"
-    >
+    style="background-image: url('/img/post-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
